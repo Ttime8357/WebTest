@@ -1,0 +1,71 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>텍스트 입력 폼</title>
+</head>
+<style>
+	body { background-color : lightgray; } 
+legend {
+	color : lightcyan;
+}
+h3 {
+		color : darkblue;
+	}
+	strong{
+		color: purple;
+	}
+</style>
+<body>
+<h3>나의 친구 등록하기</h3>
+<hr>
+<form action="C:\Users\rio99\Desktop\WebPrograming/OK.html" method="get">
+  <fieldset>
+  	<legend>기본 정보</legend>
+  <label>	이    름 : <input type="text" value=""><br> </label>
+	이 메 일 : <input type="email" placeholder="id@host" value=""><br>
+	전화번호 : <input type="tel" placeholder="010-1234-5678">
+	</fieldset>
+
+	<fieldset>
+	<legend>기타정보</legend>
+	1.직업 : <select name="job">
+    <option value="">직업선택</option>
+    <option value="학생">학생</option>
+    <option value="회사원">회사원</option>
+    <option value="기타">기타</option>
+</select>
+   1.2 직업 선택 : <select name="jobs"> <br>
+		<option value="1">의사</option>
+		<option value="2" >검사</option>
+		<option value="3">판사</option>
+	</select>
+	<br>
+  2 성별 : <label><input type="checkbox" value="1">남자 </label>
+			     <label><input type="checkbox" value="2">여자 </label>
+	</select>
+	<br>
+	3.취미:   <input type="checkbox" value="1"> 독서
+				   <input type="checkbox" value="2"> 게임
+				   <input type="checkbox" value="3"> 영화감상
+				   <input type="checkbox" value="4"> 음악감상
+				   <input type="checkbox" value="5"> 축구
+	<br>
+	</fieldset>
+
+	<strong>자기소개글 </strong>
+	<br>
+	 <textarea cols="35" rows="10">
+							자기를 소개하는 글을 쓰세요
+				  </textarea>
+    <br>
+    <input type="submit" value="등록하기">
+    <input type="reset" value="취소하기">
+	<button type="button">
+		<img src="C:\Users\rio99\Desktop\WebPrograming/Naver.png" width="20" height="20" alt="이미지 버튼">
+	</button>
+
+<br>
+
+</form>
+</body>
+</html>

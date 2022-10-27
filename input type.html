@@ -1,0 +1,83 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>텍스트 입력 폼</title>
+</head>
+<body>
+<h3>input type 테스트</h3>
+<hr>
+<form>
+	이    름 : <input type="text" value=""><br>
+	이 메 일 : <input type="email" value=""><br>
+	전화번호 : <input type="text" value=""><br>
+	<hr>
+	자기소개글 : <textarea cols="20" rows="5">
+							abc
+				  </textarea>
+    <br>
+    <input type="submit" value="등록하기">
+    <input type="reset" value="취소하기">
+    <input type="image" src="C:\Users\rio99\Desktop\WebPrograming/Naver.png" width="20" height="20"alt="이미지 버튼">
+	<button type="button">
+		<img src="C:\Users\rio99\Desktop\WebPrograming/Naver.png" width="20" height="20" alt="이미지 버튼">
+	</button>
+
+<br>
+<br>
+<br>
+    1.직업 : <input type="text" list = "jobs"><br>
+              <datalist id="jobs">
+              	<option value="의사">
+              	<option value="검사">
+              	<option value="판사">
+              </datalist>
+    2.성별 : <input type="text" list = "gender">
+              <datalist id="gender">
+				<option value="여자">
+				<option value="남자">
+			</datalist>
+	2.1 성별 :
+		<select name="sex">
+		<option value="1">여자</option>
+		<option value="2" selected>비공개</option>
+		<option value="3">남자</option>
+	</select>
+
+<br>
+    3.먹고 싶은것 : 짜장면 <input type="checkbox" value="1">
+				   짬뽕 <input type="checkbox" value="2">
+				   탕수육 <input type="checkbox" value="3">
+<br>
+	4.성별 : 남자 <input type="checkbox" value="1">
+			 여자 <input type="checkbox" value="2">
+	
+	<br>
+	5.직업 :  의사 <input type="checkbox" value="1">
+			 간호사 <input type="checkbox" value="2">
+			 변호사 <input type="checkbox" value="3">
+	<br>
+	6.성별
+	<label><input type="radio" name="gen" value="1">
+			여자<img src="C:\Users\rio99\Desktop\WebPrograming/female.jpg"width="40" height="20"></label>
+	<label><input type="radio" name="gen" value="2" >
+			납자<img src="C:\Users\rio99\Desktop\WebPrograming/male.png"width="40" height="40"><br></label>
+
+	나라 : <input type="text" list="countries"><br>
+			<datalist id="countries">
+				<option value="가나">
+				<option value="스위스">
+				<option value="브라질">
+			</datalist>
+<br>
+	<label>이    름 : <input type="text" value=""><br></label>
+	<label>이 메 일 : <input type="email" value=""><br></label>
+	<label>전화번호 : <input type="text" value=""><br></label>
+	<hr>
+	<label>자기소개글 : <textarea cols="20" rows="5">
+							abc
+				  </textarea></label>
+    <br>
+
+</form>
+</body>
+</html>
